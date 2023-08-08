@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Personal Portfolio website </title>
+  <link rel="stylesheet" href="styles.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+  <header class="header">
+    <a href="#" class="logo">Anjali.</a>
+    <div class="bx bx-menu" id="menu-icon"></div>
+    <nav class="navbar">
+      <a href="#home" class="active">Home</a>
+      <a href="#about" class="active">About</a>
+      <a href="#education" class="active">Education</a>
+      <a href="#skills" class="active">Skills</a>
+      <a href="#contact" class="active">Contact</a>
+    </nav>
+  </header>
+  <section class="home" id="home">
+    <div class="home-content">
+      <h1>Welcome!<br>I am <span>Anjali Narra</span></h1>
+      <div class="text-animate">
+      <h3>An Aspiring Software Engineer</h3></div>
+      <!-- <p><pre>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+Velit, assumenda ducimus corrupti nulla aliquid animi ea iusto tempora, alias minus illum vero! 
+Optio veritatis odio eaque fugit maiores! Possimus, deserunt!</pre></p> -->
+    <div class="btn-box">
+      <a href="Resume.docx" class="btn">Download CV</a>
+      <a href="#contact" class="btn">Let's Talk</a>
+    </div>
+    </div>
+    <div class="home-sci">
+      <a href="https://www.instagram.com/_ms_classie/"><i class='bx bxl-instagram-circle' ></i></a>
+      <a href="https://www.linkedin.com/in/anjali-narra-819065241/"><i class='bx bxl-linkedin-square' ></i></a>
+      
+    </div>
+    
+    <div class="home-imgHover"></div>
+    
+    <div class="blurr">
+  </section>
+  
+  <section class="about" id="about">
+    
+    <h2 class="heading"><span>About Me</span></h2>
+    <div class="about-img">
+      <img src="image.jpeg" alt="">
+      <!-- <span class="circle-spin"></span> -->
+    </div>
+    <div class="about-content">
+     <!-- <h3>Aspiring Software Engineer</h3> -->
+     <p>Born and raised in Hyderabad.<br>I am currently working towards my Bachelor's Degree in Engineering at Stanley College of engineering and technology for women.<br>
+      A curious learner and creative team player, interested in the job role of Software Engineer at any reputed organization where I can utilise my understanding of coding and software development to efficiently fulfil the requirements of clients and customers.
+     </p>
+    
+    </div>
+    </section>
+  
+<section class="education" id="education">
+  <h2 class="heading"><span>My Journey</span></h2>
+  <div class="education-row">
+    <div class="education-column">
+      <h3 class="title">Education</h3>
+      <div class="education-box">
+        <div class="education-content">
+          <div class="content">
+            <div class="year"><i class='bx bx-calendar'></i>2018</div>
+            <h3 class="t">Bhashyam School</h3>
+            <p class="edu">10th</p>
+          </div>
+        </div>
+        <div class="education-content">
+          <div class="content">
+            <div class="year"><i class='bx bx-calendar'></i>2018-2020</div>
+            <h3 class="t">Narayana Junior College</h3>
+            <p class="edu">Intermediate Education</p>
+          </div>
+        </div>
+        <div class="education-content">
+          <div class="content">
+            <div class="year"><i class='bx bx-calendar'></i>2020-2024</div>
+            <h3 class="t">Stanley College of Engineering and technology for women</h3>
+            <p class="edu">Bachelors of Engineering</p>
+          
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  
+</section>
+<section class="skills" id="skills">
+  <h2 class="heading1"><span>My Skills</span></h2>
+  <div class="skills-row">
+    <!-- <div class="skills-column">
+    <h3 class="title">Coding Skills</h3>
+    <div class="skills-box">
+      <div class="skills-content">
+      <div class="progress">
+        
+        <h3 >HTML<span> 70%</span></h3>
+        <div class="bar"><span style="--progress-width: 70%;"></span></div>
+      </div>
+      <div class="progress">
+        
+        <h3>CSS<span> 50%</span></h3>
+        <div class="bar"><span style="--progress-width: 50%;"></span></div>
+      </div>
+      
+      <div class="progress">
+        
+        <h3>PYTHON<span> 80%</span></h3>
+        <div class="bar"><span style="--progress-width: 80%;"></span></div>
+      </div>
+      
+      <div class="progress">
+        
+        <h3>C<span> 70%</span></h3>
+        <div class="bar"><span style="--progress-width: 70%;"></span></div>
+      </div>
+      
+    
+    </div>
+    </div>
+  </div> -->
+  <div class="tab-titles">
+    <p class="tab-links active-link" onclick="opentab('certifications')">Certifications</p>
+    <p class="tab-links active-link" onclick="opentab('coding')">Coding Skills</p>
+  </div>
+  <div class="tab-contents active-tab" id="certifications">
+    <ul class="center">
+      <li>Web development<br><s>Oyasis Infobyte</s></li>
+      <li>programming essentials,advanced programming in C<br><s>By Cisco networking academy</s></li>
+      <li>Machine Learning using Python<br><s>Skill Vertex</s></li>
+      <li>Basics of Python<br><s>Guvi</s></li>
+      <li>good performance certificate<br><s>Ardobotics Robotics workshop</s></li>
+      <li>Completion of Developer Virtual Experience Program<br><s>Accenture forage</s></li>
+      <li>Data Mining<br><s>Great Learning</s></li>
+    </ul>
+  </div>
+  <div class="tab-contents" id="coding">
+    <!-- <h3 class="title">Coding Skills</h3> -->
+    <div class="skills-box">
+      <div class="skills-content">
+      <div class="progress">
+        
+        <h3 >HTML<span> 70%</span></h3>
+        <div class="bar"><span style="--progress-width: 70%;"></span></div>
+      </div>
+      <div class="progress">
+        
+        <h3>CSS<span> 50%</span></h3>
+        <div class="bar"><span style="--progress-width: 50%;"></span></div>
+      </div>
+      
+      <div class="progress">
+        
+        <h3>PYTHON<span> 70%</span></h3>
+        <div class="bar"><span style="--progress-width: 80%;"></span></div>
+      </div>
+      
+      <div class="progress">
+        
+        <h3>C<span> 70%</span></h3>
+        <div class="bar"><span style="--progress-width: 70%;"></span></div>
+      </div>
+      <div class="progress">
+        
+        <h3>Java<span> 80%</span></h3>
+        <div class="bar"><span style="--progress-width: 80%;"></span></div>
+      </div>
+      
+    
+    </div>
+    </div>
+  </div>
+  </div>
+</section>
+<section class="contact" id="contact">
+  <h2 class="heading"><span>Contact Me!</span></h2>
+  <form name="submit-to-google-sheet" action="#">
+    <div class="input-box">
+      <div class="input-field">
+        <input type="text" name="Name" placeholder="Full Name" required>
+        <span class="focus"></span>
+      </div>
+      <div class="input-field">
+        <input type="email" name="Email" placeholder="Email Address" required>
+        <span class="focus"></span>
+      </div>
+    </div>
+    <div class="input-box">
+      <div class="input-field">
+        <input type="number" name="Number" placeholder="Mobile Number" required>
+        <span class="focus"></span>
+      </div>
+      <div class="input-field">
+        <input type="text" name="subj" placeholder="Email Subject" required>
+        <span class="focus"></span>
+      </div>
+    </div>
+    <div class="textarea-field">
+      <textarea name="mess" id="" cols="30" rows="10" placeholder="Your Message" required></textarea>
+      <span class="focus"></span>
+    </div>
+    <div class="btn-box btns">
+      <button type="submit" class="btn">Submit</button>
+    </div>
+  </form>
+  <span id="msg"></span>
+</section>
+<footer class="footer">
+  <div class="footer-text">
+    <p>Copyright &copy;2023 | All Rights Reserved</p>
+  </div>
+  <div class="footer-iconTop">
+    <a href="#home"><i class='bx bxs-up-arrow-alt'></i></a>
+  </div>
+</footer>
+<script src="java.js"></script>
+
+</body>
+</div>
+</div>
+</html>
